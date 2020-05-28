@@ -5,6 +5,8 @@ This project demonstrates creation of a web map using python. The map will have 
 2. Layer with polygons drawn as each country's boundary and color code according to population. For this, data/polygons.json is used.
 We will be able to control these layers (i.e. Switch on and off the layers as we need.)
 
+The countries will be coloured as yellow if population <10000000 , green if 10000000<=population<=20000000 and red if population >20000000.
+
 ## Prerequisites
 The python libraries folium and pandas are needed.
 
